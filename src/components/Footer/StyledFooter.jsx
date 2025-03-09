@@ -14,9 +14,17 @@ export const FooterPage = styled.footer`
     display: grid;
     grid-template-columns: repeat(1, 425px);
     grid-template-rows: repeat(3, auto);
-    margin-left: 4rem;
-    width: 415px;
+    margin-left: 3rem;
+    width: 425px;
     height: 100%;
+  }
+
+  @media (max-width: 400px) {
+    width: 380px;
+  }
+
+  @media (max-width: 330px) {
+    width: 320px;
   }
 `;
 
@@ -39,6 +47,14 @@ export const LogoIcons = styled.div`
   @media (max-width: 800px) {
     width: 150px;
     margin-left: 4.5rem;
+  }
+
+  @media (max-width: 400px) {
+    margin-left: 2rem;
+  }
+
+  @media (max-width: 330px) {
+    margin-left: 1rem;
   }
 `;
 
@@ -65,7 +81,7 @@ export const LinkIcons = styled.a`
       hue-rotate(106deg) brightness(97%) contrast(91%);
   }
 
-  @media (max-width: 800px){
+  @media (max-width: 800px) {
     width: 20px;
     margin-top: 0.5rem;
   }
@@ -90,6 +106,18 @@ export const DivSupport = styled.div`
   @media (max-width: 500px) {
     flex-direction: column;
   }
+
+  @media (max-width: 400px) {
+    width: 90%;
+    margin-right: 1rem;
+    margin-left: -4rem;
+  }
+
+  @media (max-width: 340px) {
+    width: 60%;
+    margin-right: 1rem;
+    margin-left: -4.5rem;
+  }
 `;
 
 export const Ul = styled.ul`
@@ -102,23 +130,23 @@ export const Ul = styled.ul`
       margin-right: -10rem;
     }
 
-    @media (max-width: 500px){
+    @media (max-width: 800px) {
+      padding-right: -1rem;
+      margin-top: 1rem;
+      margin-left: 0.5rem;
+    }
 
-      &:nth-child(1){
+    @media (max-width: 500px) {
+      &:nth-child(1) {
         margin-left: 7rem;
       }
 
-      &:nth-child(2){
+      &:nth-child(2) {
         margin-left: 5.7rem;
         margin-top: -0.4rem;
       }
     }
-  }
 
-  @media (max-width: 800px) {
-    padding-right: -1rem;
-    margin-top: 1rem;
-    margin-left: 0.5rem;
   }
 `;
 
@@ -134,9 +162,11 @@ export const Li = styled.li`
 
   @media (max-width: 800px) {
     margin-right: 1rem;
-    margin-left: 0.9rem;;
+    margin-left: 0.9rem;
   }
 
+  @media (max-width: 500px) {
+  }
 `;
 
 export const LinksSupport = styled.a`
@@ -148,8 +178,12 @@ export const LinksSupport = styled.a`
     color: hsl(136, 65%, 51%);
   }
 
-  @media (max-width: 800px){
+  @media (max-width: 800px) {
     font-size: 13px;
+  }
+
+  @media (max-width: 500px) {
+    width: 40px;
   }
 `;
 
@@ -157,6 +191,10 @@ export const Div = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 340px) {
+    margin-right: 2.5rem;
+  }
 `;
 
 export const Text = styled.p`
@@ -172,7 +210,16 @@ export const Text = styled.p`
     margin-left: 1.5rem;
   }
 
-  @media (max-width: 800px){
-        margin-left: 5rem;
-    }
+  @media (max-width: 800px) {
+    margin-left: 5rem;
+  }
+
+  @media (max-width: 500px) {
+    margin-left: 6.5rem;
+  }
+
+  @media (max-width: 340px) {
+    margin-left: 1.5rem;
+  }
+
 `;

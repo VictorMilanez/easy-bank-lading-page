@@ -47,3 +47,8 @@ Este é um projeto de landing page desenvolvido com React, Styled-Components, e 
 ┃ ┣ 📄 Home.jsx  
 ┣ 📄 App.js  
 ┣ 📄 index.js  
+
+## Demonstração:
+
+![Demonstração do Slider de Imagens](./src/images/animationEasyBankDesktop.gif)
+![Responsivo do Slider de Imagens](./src/images/animationEasyBankMobile.gif)

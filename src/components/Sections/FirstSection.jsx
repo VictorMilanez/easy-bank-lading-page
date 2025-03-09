@@ -10,7 +10,7 @@ export const FirstSection = ({ title, text, images}) => {
                     <Title1>{title}</Title1>
                     <P1>{text}</P1>
                 </div>
-                <Button buttonLabel="Request Invite" />
+                <Button buttonLabel="Request Invite" isFirstSection />
             </FirstDiv>
 
             <SecondDiv>

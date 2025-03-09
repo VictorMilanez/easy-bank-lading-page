@@ -11,10 +11,7 @@ export const SectionFirst = styled.section`
   overflow: hidden;
 
   @media (max-width: 500px) {
-    /* display: grid;
-    grid-template-rows: repeat(2, 1fr); */
     flex-direction: column-reverse;
-    /* height: 100vh; */
     margin-left: 3rem;
     margin-top: 20px;
   }
@@ -36,6 +33,12 @@ export const FirstDiv = styled.div`
     width: 100%;
     margin-left: 6rem;
     margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  
+  @media (max-width: 400px){
+    margin-left: 4rem;
   }
 `;
 
@@ -50,6 +53,18 @@ export const Title1 = styled.h1`
     padding-right: 0.8rem;
     margin-right: 1rem;
   }
+
+  @media (max-width: 500px) {
+    margin-right: 4rem;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 340px) {
+    font-size: 32px;
+  }
 `;
 
 export const P1 = styled.p`
@@ -63,6 +78,10 @@ export const P1 = styled.p`
 
   @media (max-width: 500px){
     width: 80%;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 14px;
   }
 `;
 
@@ -132,5 +151,11 @@ export const Img2 = styled.img`
     width: 75%;
     top: 5rem;
     left: 20%;
+  }
+
+  @media (max-width: 400px) {
+    width: 90%;
+    transform: translateY(-17%);
+    left: 3%;
   }
 `;

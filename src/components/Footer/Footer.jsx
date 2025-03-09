@@ -46,7 +46,7 @@ export const Footer = ({ footerItems }) => {
             </DivSupport>
 
             <Div>
-                <Button buttonLabel="Request Invite" />
+                <Button buttonLabel="Request Invite" isFooter />
 
                 <Text>© Easybank. All rights Reserved</Text>
             </Div>

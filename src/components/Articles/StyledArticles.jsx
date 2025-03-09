@@ -6,6 +6,12 @@ export const ArticlesContainer = styled.article`
     margin: 0 auto;
     padding: 0.5rem 1.9rem;
     background-color: hsl(0, 0%, 98%);
+
+    @media (max-width: 500px) {
+        margin-left: 3rem;
+    }
+
+
 `
 
 export const Title = styled.h1`
@@ -20,6 +26,17 @@ export const Title = styled.h1`
 
     @media (max-width: 500px){
         font-size: 35px;
+        padding-left: 2rem;
+    }
+
+    @media (max-width: 400px) {
+        margin-right: 5rem;
+        width: 100%;
+    }
+
+    @media (max-width: 340px) {
+        padding-left: 1rem;
+        width: 100%;
     }
 `
 
@@ -38,6 +55,7 @@ export const ArticlesGrid = styled.div`
     @media (max-width:500px){ 
         grid-template-columns: repeat(1,425px);
     }
+
 `
 
 export const ArticlesCard = styled.div`
@@ -53,11 +71,26 @@ export const ArticlesCard = styled.div`
     @media (max-width: 800px){
         width: 60%;
     }
+
+    @media (max-width: 500px) {
+        margin-left: 4rem;
+    }
+
+    @media (max-width: 400px) {
+        margin-left: 2rem;
+    }
+
+    @media (max-width: 340px) {
+        margin-left: 0.5rem;
+    }
 `
 
 export const ImgContainer = styled.div`
     width: 100%;
     max-width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
 
 export const ImgArticles = styled.img`
@@ -67,6 +100,11 @@ export const ImgArticles = styled.img`
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-bottom: 1.57rem;
+
+    @media (max-width: 400px) {
+        width: 400px;
+        max-width: 400px;
+    }
 `
 
 export const InfoArticles = styled.div`
@@ -88,6 +126,7 @@ export const TitleArticle = styled.h3`
     padding-left: 1.25rem;
     padding-bottom: 0.63rem;
     padding-right: 0.63rem;
+
 `
 
 export const TextArticle = styled.p`

@@ -34,7 +34,7 @@ export const Menu = ({ menuItems }) => {
           );
         })}
       </Ul>
-      <Button buttonLabel="Request Invite" width="110px" />
+      <Button buttonLabel="Request Invite" width="110px" $isMenu />
     </Nav>
   );
 };

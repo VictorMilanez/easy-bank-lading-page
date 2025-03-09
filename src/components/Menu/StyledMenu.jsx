@@ -28,6 +28,10 @@ export const Nav = styled.nav`
   @media (max-width: 500px) {
     justify-content: space-between;
   }
+
+  @media (max-width: 400px) {
+    margin-left: 2rem;
+  }
 `;
 export const Ul = styled.ul`
   display: flex;
